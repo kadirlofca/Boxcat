@@ -9,8 +9,16 @@
 		</relationship>
 	</object>
 	<object class="ProjectSettings" id="{cef67535-c4a5-4f8e-934d-dc272a4dbb31}">
+<<<<<<< Updated upstream
 		<property name="windowLayout">
 			<value>AAAAAQAAABYAQQB1AGQAaQBvACAAQgBpAG4AIAAxAAAAQgHZ0MsAAwAAAAAEhAAAAHYAAAYVAAADZQAABIUAAACVAAAGFAAAA2QAAAAAAAAAAAeAAAAEhQAAAJUAAAYUAAADZA==</value>
+=======
+		<property name="openWindows">
+			<value>Event Editor 1</value>
+		</property>
+		<property name="windowLayout">
+			<value>AAAAAgAAABwARQB2AGUAbgB0ACAARQBkAGkAdABvAHIAIAAxAAAAQgHZ0MsAAwAA//////////gAAAeAAAAEEAAAAoAAAAEYAAAGnwAAArsAAAAAAgAAAAeAAAAAAAAAABcAAAd/AAAEDwAAABYAQQB1AGQAaQBvACAAQgBpAG4AIAAxAAAAQgHZ0MsAAwAAAAADvwAAAAAAAAeAAAAEEAAAA8AAAAAfAAAHfwAABA8AAAAAAAAAAAeAAAADwAAAAB8AAAd/AAAEDw==</value>
+>>>>>>> Stashed changes
 		</property>
 		<relationship name="activePlatform">
 			<destination>{af5e46b9-00d9-4105-b484-335b3d3d943c}</destination>

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{55d38f76-ff6b-4362-95e0-89d3f9f96274}">
+<<<<<<< Updated upstream
 		<property name="assetPath">
 			<value>Cat/Purr/Purr.wav</value>
 		</property>
+=======
+		<property name="assetPath" />
+>>>>>>> Stashed changes
 		<property name="frequencyInKHz">
 			<value>48</value>
 		</property>
