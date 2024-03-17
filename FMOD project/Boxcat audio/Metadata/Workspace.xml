@@ -20,7 +20,7 @@
 			<destination>{831e8866-683c-4395-9cdd-8d9aad8ad00f}</destination>
 		</relationship>
 		<relationship name="masterSandboxFolder">
-			<destination>{be600f1f-e70e-42a7-9241-b9650b7c70bc}</destination>
+			<destination>{0629193a-6dec-46c4-86be-bbb5653ccb79}</destination>
 		</relationship>
 		<relationship name="masterAssetFolder">
 			<destination>{a5e1c0ea-8cfe-439a-bbcb-ade5a6538487}</destination>
@@ -29,7 +29,7 @@
 			<destination>{b5b07ba0-62df-4979-a219-3c53bd3690ec}</destination>
 		</relationship>
 		<relationship name="profilerSessionFolder">
-			<destination>{2deaf249-0819-4d86-93d2-ddf9925db7d8}</destination>
+			<destination>{7b66e651-fdc3-496a-9c01-11b5e8e01351}</destination>
 		</relationship>
 		<relationship name="platforms">
 			<destination>{af5e46b9-00d9-4105-b484-335b3d3d943c}</destination>
