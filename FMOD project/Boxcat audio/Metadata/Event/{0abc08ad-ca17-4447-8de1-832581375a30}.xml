@@ -5,7 +5,7 @@
 			<value>Collision</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a47e07ad-e14d-4304-90f3-38f2963ef265}</destination>
@@ -59,7 +59,14 @@
 			<destination>{f116c950-d52c-486d-a1a4-85ba14937a93}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{9940d1c2-1f38-4e13-80e0-553d692c7d3b}" />
+	<object class="EventAutomatableProperties" id="{9940d1c2-1f38-4e13-80e0-553d692c7d3b}">
+		<property name="maxVoices">
+			<value>10</value>
+		</property>
+		<property name="dopplerEnabled">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{696c7dc4-0037-49e0-812f-2a6a83f9298f}" />
 	<object class="Timeline" id="{a1070ebe-89c9-4a33-96e4-5d34c4bb3b99}">
 		<property name="isProxyEnabled">
@@ -96,14 +103,32 @@
 	<object class="MixerBusEffectChain" id="{aa59d0b0-9bd1-4e80-8a8e-9c30cb3ade19}">
 		<relationship name="effects">
 			<destination>{4b474ec4-dcae-4ba2-b7f5-330b818ff9df}</destination>
+			<destination>{220f5773-2948-404d-85ae-3c12f986b6a8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{220021af-97c4-4de1-ae5b-3fa0d367c205}" />
 	<object class="SingleSound" id="{4d13ece1-00a7-42c0-87ce-79350b39c030}">
+		<property name="color">
+			<value>Purple Light 1</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{636ba4db-ae63-498b-84f0-ad2fce18a5b4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{3e6b97b4-eecc-4697-91c0-fd6adcb3f3c8}" />
 	<object class="MixerBusFader" id="{4b474ec4-dcae-4ba2-b7f5-330b818ff9df}" />
+	<object class="SpatialiserEffect" id="{220f5773-2948-404d-85ae-3c12f986b6a8}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
+		<property name="maximumDistance">
+			<value>1600</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="panBlend">
+			<value>0.439999998</value>
+		</property>
+	</object>
 </objects>

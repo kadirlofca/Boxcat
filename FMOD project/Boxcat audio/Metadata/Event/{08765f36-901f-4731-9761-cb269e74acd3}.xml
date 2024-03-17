@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{08765f36-901f-4731-9761-cb269e74acd3}">
+		<property name="note" />
 		<property name="name">
 			<value>Meow</value>
 		</property>
@@ -31,6 +32,9 @@
 		<relationship name="parameters">
 			<destination>{c784701f-e2d1-434c-a6fe-ebd4134c2bdb}</destination>
 		</relationship>
+		<relationship name="userProperties">
+			<destination>{7489d778-f6cb-40f6-8172-f1faef4266e6}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{6df88b52-00fa-4ae3-9b60-385dae52dc7f}</destination>
 		</relationship>
@@ -59,7 +63,14 @@
 			<destination>{f116c950-d52c-486d-a1a4-85ba14937a93}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{6b7d5e33-a245-4423-8454-35712bd61a9a}" />
+	<object class="EventAutomatableProperties" id="{6b7d5e33-a245-4423-8454-35712bd61a9a}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="triggerCooldown">
+			<value>220</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{10d715bc-4071-4822-9b67-ba80e65731a3}" />
 	<object class="Timeline" id="{fa1254a7-89bb-46c3-ad83-f45b5d75b0b0}">
 		<property name="isProxyEnabled">
@@ -70,6 +81,12 @@
 		<relationship name="modules">
 			<destination>{feb8c224-0fd2-49f9-a9cc-13f8191a9443}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{7489d778-f6cb-40f6-8172-f1faef4266e6}">
+		<property name="key">
+			<value>Monophonic</value>
+		</property>
+		<property name="value" />
 	</object>
 	<object class="EventMixerMaster" id="{d8abe160-9f4d-4f86-a320-7faacc5b4ddb}">
 		<property name="volume">
